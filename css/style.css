@@ -35,12 +35,10 @@ main{
  
 
 }
-img{
+.img{
     width: calc(90%/ 7);
-    position: relative;
-    
-
 }
+
 .mic{
     color:white;
     position: absolute;
@@ -49,15 +47,25 @@ img{
     background-color: rgba(52, 49, 49, 0.6);
 }
 
+
 /* FOOTER */
 footer{
     height: 90px ;
     width: 100%;
     margin: auto;
     display: flex;
+    justify-content: space-between;
     background-color: blue;
 }
-
-.micrab{
-    color:white
+.left-footer{
+    width:20%;
+    text-align: left;
+}
+.middle-footer{
+    width:60%;
+    text-align: center;
+}
+.right-footer{
+    width:20%;
+    text-align: right;
 }
