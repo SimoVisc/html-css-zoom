@@ -17,16 +17,29 @@ header{
     text-align: right;
     height: 20px;
     width: 100%;
+    margin-bottom: 30px;
    
 }
 span{
+    color: white;
+    width: 30px;
     background-color: gray;
 }
-small,i{
-   color: white;
-   width: 40px;
-  
-}
+
 /* MAIN */
 main{
-   
+  height:calc(100%-120px);
+  width: 90%;
+  margin:auto;
+  overflow-y: auto;
+  display: flex;
+
+}
+img{
+    width: calc(90%/ 7);
+}
+
+/* FOOTER */
+footer{
+    width: 90px ;
+}
