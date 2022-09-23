@@ -9,8 +9,25 @@ body{
     background-color: black;
     height: 100vh;
 }
-
-
+/* BUTTONS */
+button{
+    background: transparent;
+    border:none;
+}
+.btn-header{
+    background-color:#4a4a4a;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.btn-footer{
+    color: white;
+    padding: 5px;
+}
+.btn-footer-text{
+    margin-top: 4px;
+    font-size:14px ;
+}
 /* HEADER */
 
 header{
@@ -66,21 +83,26 @@ footer{
     justify-content: space-between;
     color: white;
 }
+footer>*{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
 .left-footer{
-    width:20%;
+    width:10%;
     text-align: left;
     display: flex;
 }
-.middle-footer{
-    width:60%;
+.center-footer{
+    width:80%;
     text-align: center;
     display: flex;
+    justify-content: center;
 }
 .right-footer{
-    width:20%;
+    width:10%;
     text-align: right;
-    
 }
-.microfono{
+.{
     display: flex;
 }
